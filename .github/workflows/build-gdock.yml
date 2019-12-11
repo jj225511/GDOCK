@@ -3,7 +3,7 @@
 #   Author: JK
 #=================================================
 
-name: Build G-DOCK
+name: Build ZYZH-Router
 
 on: 
   release:
@@ -82,5 +82,5 @@ jobs:
     - name : Upload artifact
       uses: actions/upload-artifact@master
       with:
-        name: G-DOCK
+        name: ZYZH-Router
         path: ./lede/bin
