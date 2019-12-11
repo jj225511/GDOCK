@@ -1,6 +1,6 @@
 #=================================================
-#   Description: Build G-DOCK FROM LEAN'S LEDE
-#   Author: JK
+#   Description: Build ZYZH-Router FROM LEAN'S LEDE
+#   Author: ZYZH
 #=================================================
 
 name: Build ZYZH-Router
