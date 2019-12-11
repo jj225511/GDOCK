@@ -1,5 +1,5 @@
 echo '修改机器名称'
-sed -i 's/OpenWrt/G-DOCK/g' package/base-files/files/bin/config_generate
+sed -i 's/OpenWrt/ZYZH-Router/g' package/base-files/files/bin/config_generate
 
 #echo '修改网关地址'
 #sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generate
@@ -18,7 +18,7 @@ rm -rf ./package/lean/luci-theme-argon
 ln -s ../../../luci-theme-argon ./package/lean/
 
 echo '修改wifi名称'
-sed -i 's/OpenWrt/G-DOCK/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+sed -i 's/OpenWrt/ZYZH-Router/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 
 echo '修改banner'
 rm -rf package/base-files/files/etc/banner
