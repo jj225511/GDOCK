@@ -50,7 +50,7 @@ jobs:
 
     - name: Clone source code
       run: |
-        git clone https://github.com/coolsnowwolf/lede/tree/6c8c96cedf5b455f4eea2744aeca8d6be3fa46c2 lede
+        git clone https://github.com/coolsnowwolf/lede/tree/20200416 lede
 
     - name: Update feeds
       run: cd lede && ./scripts/feeds update -a
